@@ -11,5 +11,5 @@ class Employee {
         console.log("phone:", this.phone);
     }
 }
-let entity = new Employee("Hiếu Phạm", "lính đánh thuê", 12345789);
+let entity = new Employee("Hiếu Phạm", "lính đánh thuê", "12345789");
 entity.printInfo();
