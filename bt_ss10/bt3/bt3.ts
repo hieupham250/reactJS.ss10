@@ -1,8 +1,8 @@
 class Employee {
     public name: string
     protected company:string
-    private phone:number
-    constructor(name:string, company:string, phone:number){
+    private phone:string
+    constructor(name:string, company:string, phone:string){
         this.name = name
         this.company = company
         this.phone = phone
@@ -14,5 +14,5 @@ class Employee {
     }
 }
 
-let entity = new Employee("Hiếu Phạm", "lính đánh thuê", 012345789)
+let entity = new Employee("Hiếu Phạm", "lính đánh thuê", "012345789")
 entity.printInfo();
